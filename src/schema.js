@@ -14,5 +14,7 @@ module.exports = gql`
 
 type Mutation {
     newData(content: [Int!]!): Data!
+    deleteData(id: ID!): Boolean!
+    updateData(id: ID!, content: [Int!]! ): Data!
    }
 `;
