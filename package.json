@@ -1,0 +1,33 @@
+{
+  "name": "graphql-api",
+  "version": "1.0.0",
+  "description": "GraphQL-API",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server-express": "^2.16.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "final": "nodemon src/index.js",
+    "seed": "node src/index.js",
+    "lint": "eslint \"**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GobindB/GraphQL-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GobindB/GraphQL-API/issues"
+  },
+  "homepage": "https://github.com/GobindB/GraphQL-API#readme"
+}
